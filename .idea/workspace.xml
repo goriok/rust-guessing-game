@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e66b6fb0-4b5d-4c85-b197-4af67143e14f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/rust-guessing-game.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,28 +28,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lib.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="608">
+              <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
               <folding>
-                <element signature="e#84#85#0" expanded="true" />
-                <element signature="e#141#142#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#688#689#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
+                <element signature="e#142#143#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#804#805#0" expanded="true" />
+                <element signature="e#851#852#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="309">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -89,8 +80,8 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Cargo.toml" />
-        <option value="$PROJECT_DIR$/src/main.rs" />
         <option value="$PROJECT_DIR$/src/lib.rs" />
+        <option value="$PROJECT_DIR$/src/main.rs" />
       </list>
     </option>
   </component>
@@ -108,6 +99,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,18 +117,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557626878622" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557665583628" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -190,9 +182,9 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Test tests::guess_right" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+    <configuration name="Test tests::generate_random_number" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
-      <option name="command" value="test --package rust-guessing-game --lib tests::guess_right -- --exact" />
+      <option name="command" value="test --package rust-guessing-game --lib tests::generate_random_number -- --exact" />
       <option name="allFeatures" value="false" />
       <option name="nocapture" value="false" />
       <option name="backtrace" value="SHORT" />
@@ -203,10 +195,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cargo Command.Test lib::tests" />
+        <item itemvalue="Cargo Command.Test tests::generate_random_number" />
         <item itemvalue="Cargo Command.Test lib" />
         <item itemvalue="Cargo Command.Run rust-guessing-game" />
         <item itemvalue="Cargo Command.Test tests::generate_number" />
-        <item itemvalue="Cargo Command.Test tests::guess_right" />
       </list>
     </recent_temporary>
   </component>
@@ -226,49 +218,51 @@
       <updated>1557619694415</updated>
       <workItem from="1557619695752" duration="4057000" />
       <workItem from="1557623782799" duration="3092000" />
+      <workItem from="1557662062373" duration="321000" />
+      <workItem from="1557662824597" duration="2794000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_lib__tests - 2019.05.11 at 22h 22m 45s.xml">
+    <history-entry file="Test_tests__generate_random_number - 2019.05.12 at 09h 28m 02s.xml">
+      <configuration name="Test tests::generate_random_number" configurationId="CargoCommandRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_tests__generate_random_number - 2019.05.12 at 09h 28m 03s.xml">
+      <configuration name="Test tests::generate_random_number" configurationId="CargoCommandRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_tests__generate_random_number - 2019.05.12 at 09h 28m 04s.xml">
+      <configuration name="Test tests::generate_random_number" configurationId="CargoCommandRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_tests__generate_random_number - 2019.05.12 at 09h 28m 05s.xml">
+      <configuration name="Test tests::generate_random_number" configurationId="CargoCommandRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_tests__generate_random_number - 2019.05.12 at 09h 28m 32s.xml">
+      <configuration name="Test tests::generate_random_number" configurationId="CargoCommandRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_tests__generate_random_number - 2019.05.12 at 09h 28m 42s.xml">
+      <configuration name="Test tests::generate_random_number" configurationId="CargoCommandRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_lib__tests - 2019.05.12 at 09h 28m 51s.xml">
       <configuration name="Test lib::tests" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_lib__tests - 2019.05.11 at 22h 23m 03s.xml">
+    <history-entry file="Test_lib__tests - 2019.05.12 at 09h 38m 54s.xml">
       <configuration name="Test lib::tests" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_lib__tests - 2019.05.11 at 22h 25m 15s.xml">
+    <history-entry file="Test_lib__tests - 2019.05.12 at 09h 44m 42s.xml">
       <configuration name="Test lib::tests" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_lib__tests - 2019.05.11 at 22h 28m 19s.xml">
-      <configuration name="Test lib::tests" configurationId="CargoCommandRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_lib - 2019.05.11 at 22h 41m 46s.xml">
-      <configuration name="Test lib" configurationId="CargoCommandRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_lib__tests - 2019.05.11 at 22h 43m 43s.xml">
-      <configuration name="Test lib::tests" configurationId="CargoCommandRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_lib__tests - 2019.05.11 at 22h 47m 04s.xml">
-      <configuration name="Test lib::tests" configurationId="CargoCommandRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_lib__tests - 2019.05.11 at 22h 49m 26s.xml">
-      <configuration name="Test lib::tests" configurationId="CargoCommandRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_lib__tests - 2019.05.11 at 22h 57m 48s.xml">
-      <configuration name="Test lib::tests" configurationId="CargoCommandRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_lib__tests - 2019.05.11 at 23h 04m 23s.xml">
+    <history-entry file="Test_lib__tests - 2019.05.12 at 09h 45m 39s.xml">
       <configuration name="Test lib::tests" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7149000" />
+    <option name="totallyTimeSpent" value="10264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25379092" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26177174" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -277,12 +271,12 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37459284" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41205212" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.36482084" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35016286" />
       <window_info anchor="bottom" id="Docker" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="10" />
@@ -305,16 +299,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.6.5/src/lib.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="256" column="31" selection-start-line="256" selection-start-column="31" selection-end-line="256" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/guess.rs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/guess.rs" />
     <entry file="file://$PROJECT_DIR$/Cargo.toml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -332,25 +317,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.rs">
+    <entry file="file://$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.6.5/src/lib.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="142">
+          <caret line="244" selection-start-line="244" selection-end-line="244" />
+          <folding>
+            <element signature="e#7827#7828#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="608">
+          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
           <folding>
-            <element signature="e#84#85#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>

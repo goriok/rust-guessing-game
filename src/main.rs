@@ -1,10 +1,11 @@
-use rust_guessing_game::check;
+use rust_guessing_game::{guess, Guess};
 
 fn main() {
     use std::io;
+    let min = 1;
+    let max = 100;
 
-    println!("Guess the number!");
-
+    println!("Guess the number! Range: ({}-{})", min, max);
     println!("Please input your guess.");
 
     let mut input = String::new();
@@ -15,5 +16,7 @@ fn main() {
     let input: u32 = input.trim().parse()
         .expect("Please type a number!");
 
-    println!("You guessed: {}", check(input));
+    let result = guess(Guess { input, min, max });
+
+    println!("You guessed: {}, {}", input, result);
 }
